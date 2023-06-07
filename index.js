@@ -159,7 +159,7 @@ app.delete('/projects/:id', async(req, res) => {
 //Modified Chat Project by Project ID
 app.post('/projects/chat/:id', async(req, res) => {
     try {
-        const {error} = await supabase.from('projects').update({design: req.body.design.data}).eq('id', req.params.id)
+        const {error} = await supabase.from('projects').update({designs: req.body.designs}).eq('id', req.params.id)
         if(error) {
             return res.status(400).json(error)
         }
