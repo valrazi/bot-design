@@ -1,0 +1,23 @@
+{
+  "name": "workspace-rest",
+  "version": "1.0.0",
+  "description": "Supabase with NodeJS Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.24.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "supabase": "^1.64.8"
+  }
+}
